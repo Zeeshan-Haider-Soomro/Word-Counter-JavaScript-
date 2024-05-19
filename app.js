@@ -1,3 +1,8 @@
+
+let date = new Date()
+let yearChanger = document.querySelector("#yearChanger");
+yearChanger.innerText = date.getFullYear()
+
 function counterApplication(){
     let paragraph = document.querySelector("textarea")
     
